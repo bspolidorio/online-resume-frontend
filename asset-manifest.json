@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/online-resume-frontend/static/js/main.f55014dd.chunk.js",
+    "main.js.map": "/online-resume-frontend/static/js/main.f55014dd.chunk.js.map",
+    "runtime-main.js": "/online-resume-frontend/static/js/runtime-main.9cc2ecf5.js",
+    "runtime-main.js.map": "/online-resume-frontend/static/js/runtime-main.9cc2ecf5.js.map",
+    "static/js/2.3285db32.chunk.js": "/online-resume-frontend/static/js/2.3285db32.chunk.js",
+    "static/js/2.3285db32.chunk.js.map": "/online-resume-frontend/static/js/2.3285db32.chunk.js.map",
+    "index.html": "/online-resume-frontend/index.html",
+    "precache-manifest.79759deaf3426b33b8a950974aa8aa94.js": "/online-resume-frontend/precache-manifest.79759deaf3426b33b8a950974aa8aa94.js",
+    "service-worker.js": "/online-resume-frontend/service-worker.js",
+    "static/js/2.3285db32.chunk.js.LICENSE.txt": "/online-resume-frontend/static/js/2.3285db32.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cc2ecf5.js",
+    "static/js/2.3285db32.chunk.js",
+    "static/js/main.f55014dd.chunk.js"
+  ]
+}
