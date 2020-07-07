@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../styles/GlobalStyles";
 
 export const Container = styled.div``;
 
@@ -6,6 +7,9 @@ export const Header = styled.div`
   padding: 40px 80px;
   margin: 0 auto;
   background-color: var(--gray);
+  @media ${device.mobile} {
+    padding: 20px 30px;
+  }
 `;
 
 export const UserName = styled.h1`
@@ -13,6 +17,10 @@ export const UserName = styled.h1`
   text-transform: uppercase;
   letter-spacing: 3px;
   color: var(--darkblue);
+  @media ${device.mobile} {
+    font-size: 40px;
+    text-align: center;
+  }
 `;
 
 export const Position = styled.h2`
@@ -21,6 +29,10 @@ export const Position = styled.h2`
   text-transform: uppercase;
   letter-spacing: 5px;
   color: var(--darkblue);
+  @media ${device.mobile} {
+    font-size: 10px;
+    text-align: center;
+  }
 `;
 
 export const AboutMe = styled.div`
@@ -30,10 +42,18 @@ export const AboutMe = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  @media ${device.mobile} {
+    padding: 30px;
+    padding-bottom: 0px;
+  }
 `;
 
 export const AboutLeft = styled.div`
   min-width: 200px;
+  @media ${device.mobile} {
+    margin: 0 auto;
+    text-align: center;
+  }
 `;
 
 export const AboutTitle = styled.h3`
@@ -47,6 +67,9 @@ export const AboutTitle = styled.h3`
   transform: skew(-20deg);
   text-align: center;
   color: var(--gray);
+  @media ${device.mobile} {
+    margin: 0 auto 10px;
+  }
 `;
 
 export const Email = styled.a`
@@ -76,7 +99,11 @@ export const Linkedin = styled.a`
   color: var(--darkblue);
 `;
 
-export const AboutRight = styled.div``;
+export const AboutRight = styled.div`
+  @media ${device.mobile} {
+    margin: 0 auto;
+  }
+`;
 
 export const Separator = styled.div`
   margin: 15px 0px 30px;
@@ -84,6 +111,9 @@ export const Separator = styled.div`
   border-bottom: 2px solid var(--lightblue);
   position: relative;
   float: right;
+  @media ${device.mobile} {
+    width: 310px;
+  }
 `;
 
 export const AboutText = styled.p`
@@ -91,4 +121,9 @@ export const AboutText = styled.p`
   margin: 20px 20px 20px 0px;
   font-size: 14px;
   line-height: 20px;
+  @media ${device.mobile} {
+    max-width: 300px;
+    text-align: justify;
+    margin: 0 auto;
+  }
 `;

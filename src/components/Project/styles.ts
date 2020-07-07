@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../styles/GlobalStyles";
 
 export const Container = styled.div`
   padding: 30px 0px;
@@ -11,6 +12,9 @@ export const TitleContainer = styled.div`
   display: flex;
   justify-content: space-between;
   padding-left: 50px;
+  @media ${device.mobile} {
+    padding-left: 0px;
+  }
 `;
 
 export const ProjectsTitle = styled.h3`
@@ -24,12 +28,18 @@ export const ProjectsTitle = styled.h3`
   border-radius: 8px;
   text-align: center;
   color: var(--gray);
+  @media ${device.mobile} {
+    margin: 0 auto;
+  }
 `;
 
 export const Separator = styled.div`
   width: 570px;
   border-bottom: 2px solid var(--lightblue);
   margin-bottom: 20px;
+  @media ${device.mobile} {
+    display: none;
+  }
 `;
 
 export const CardsContainer = styled.div`
@@ -37,6 +47,9 @@ export const CardsContainer = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0px 80px;
+  @media ${device.mobile} {
+    padding: 30px;
+  }
 `;
 
 export const Card = styled.div`

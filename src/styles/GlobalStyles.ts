@@ -20,3 +20,13 @@ html, body, #root {
     --black: #000;
   }
 `;
+
+const size = {
+  mobile: "375px",
+  tablet: "768px",
+};
+
+export const device = {
+  mobile: `(min-width: ${size.mobile})`,
+  tablet: `(min-width: ${size.tablet})`,
+};

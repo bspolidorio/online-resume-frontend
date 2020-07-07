@@ -1,10 +1,14 @@
 import styled from "styled-components";
+import { device } from "../../styles/GlobalStyles";
 
 export const Container = styled.div`
   padding: 0px 50px 20px;
   margin: 0 auto;
   background-color: var(--white);
   position: relative;
+  @media ${device.mobile} {
+    padding: 0px 30px;
+  }
 `;
 
 export const SpecializationsTitle = styled.h3`
@@ -20,6 +24,10 @@ export const SpecializationsTitle = styled.h3`
   color: var(--gray);
   position: absolute;
   top: -65px;
+  @media ${device.mobile} {
+    position: unset;
+    margin: 10px auto;
+  }
 `;
 
 export const SpecializationList = styled.ul`
@@ -28,5 +36,11 @@ export const SpecializationList = styled.ul`
   list-style-type: none;
   li {
     padding: 3px 0px;
+    @media ${device.mobile} {
+      text-align: center;
+    }
+  }
+  @media ${device.mobile} {
+    padding: 30px;
   }
 `;
