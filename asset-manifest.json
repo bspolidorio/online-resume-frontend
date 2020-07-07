@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/online-resume-frontend/static/js/main.586fe09e.chunk.js",
-    "main.js.map": "/online-resume-frontend/static/js/main.586fe09e.chunk.js.map",
+    "main.js": "/online-resume-frontend/static/js/main.37fcd90a.chunk.js",
+    "main.js.map": "/online-resume-frontend/static/js/main.37fcd90a.chunk.js.map",
     "runtime-main.js": "/online-resume-frontend/static/js/runtime-main.9cc2ecf5.js",
     "runtime-main.js.map": "/online-resume-frontend/static/js/runtime-main.9cc2ecf5.js.map",
     "static/js/2.6295d147.chunk.js": "/online-resume-frontend/static/js/2.6295d147.chunk.js",
     "static/js/2.6295d147.chunk.js.map": "/online-resume-frontend/static/js/2.6295d147.chunk.js.map",
     "index.html": "/online-resume-frontend/index.html",
-    "precache-manifest.237d6f1b4e8409e5d5041cdcd21d4cc8.js": "/online-resume-frontend/precache-manifest.237d6f1b4e8409e5d5041cdcd21d4cc8.js",
+    "precache-manifest.e9d355d25b10f8fe849fb2f90a9a30e0.js": "/online-resume-frontend/precache-manifest.e9d355d25b10f8fe849fb2f90a9a30e0.js",
     "service-worker.js": "/online-resume-frontend/service-worker.js",
     "static/js/2.6295d147.chunk.js.LICENSE.txt": "/online-resume-frontend/static/js/2.6295d147.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9cc2ecf5.js",
     "static/js/2.6295d147.chunk.js",
-    "static/js/main.586fe09e.chunk.js"
+    "static/js/main.37fcd90a.chunk.js"
   ]
 }
