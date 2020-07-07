@@ -12,7 +12,7 @@ const Specialization: React.FC<Props> = ({ specializations }) => {
       <p>Specializations: </p>
       <S.SpecializationList>
         {specializations.map((specialization) => (
-          <li>{specialization.name}</li>
+          <li>{specialization}</li>
         ))}
       </S.SpecializationList>
     </S.Container>

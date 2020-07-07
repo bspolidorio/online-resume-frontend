@@ -11,11 +11,10 @@ const Project: React.FC<Props> = ({ projects }) => {
     <Container>
       {projects.map((project) => (
         <div>
-          <strong>Name:</strong> {project.name} <br />
-          <strong>Description:</strong> {project.description} <br />
-          <strong>Live:</strong> {project.live} <br />
-          <strong>Code:</strong> {project.code} <br />
-          <br />
+          <p>{project.name}</p>
+          <p>{project.description}</p>
+          <p>{project.code}</p>
+          <p>{project.live}</p>
         </div>
       ))}
     </Container>

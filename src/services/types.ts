@@ -1,10 +1,3 @@
-export interface IProject {
-  name: string;
-  description: string;
-  code?: string;
-  live?: string;
-}
-
 export interface IUser {
   name: string;
   email: string;
@@ -13,8 +6,15 @@ export interface IUser {
   github?: string;
   linkedin?: string;
   about?: string;
+  specializations: ISpecialization[];
+  projects: IProject[];
 }
 
-export interface ISpecialization {
+export interface IProject {
   name: string;
+  description: string;
+  code?: string;
+  live?: string;
 }
+
+export type ISpecialization = string;

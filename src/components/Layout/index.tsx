@@ -3,21 +3,26 @@ import { Grid } from "./styles";
 import Project from "../Project";
 import User from "../User";
 import Specialization from "../Specialization";
-import { IProject, ISpecialization, IUser } from "../../services/types";
+import { IUser } from "../../services/types";
 
 interface Props {
   users: IUser[];
-  projects: IProject[];
-  specializations: ISpecialization[];
 }
 
-const Layout: React.FC<Props> = ({ users, specializations, projects }) => {
+const Layout: React.FC<Props> = ({ users }) => {
   return (
-    <Grid>
-      <User users={users} />
-      <Specialization specializations={specializations} />
-      <Project projects={projects} />
-    </Grid>
+    <>
+      {users.map((user) => (
+        <Grid>
+          <User key={user.name} user={user} />
+          <Specialization
+            key={user.projects[1].name}
+            specializations={user.specializations}
+          />
+          <Project key={user.projects[0].name} projects={user.projects} />
+        </Grid>
+      ))}
+    </>
   );
 };
 
