@@ -9,7 +9,7 @@ interface Props {
 const Specialization: React.FC<Props> = ({ specializations }) => {
   return (
     <S.Container>
-      <p>Specializations: </p>
+      <S.SpecializationsTitle>Specializations</S.SpecializationsTitle>
       <S.SpecializationList>
         {specializations.map((specialization) => (
           <li>{specialization}</li>
