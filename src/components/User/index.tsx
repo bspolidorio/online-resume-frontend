@@ -11,7 +11,7 @@ const User: React.FC<Props> = ({ user }) => {
     <S.Container>
       <S.Header>
         <S.UserName>{user.name}</S.UserName>
-        <S.Position>Frontend Developer</S.Position>
+        <S.Position>{user.position}</S.Position>
       </S.Header>
       <S.AboutMe>
         <S.AboutLeft>

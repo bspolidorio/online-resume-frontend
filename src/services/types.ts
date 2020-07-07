@@ -3,6 +3,7 @@ export interface IUser {
   email: string;
   phone: string;
   location: string;
+  position?: string;
   github?: string;
   linkedin?: string;
   about?: string;
